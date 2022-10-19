@@ -7,6 +7,10 @@ async function fetchTopic2(id) {
   return (await fetch(`http://127.0.0.1:8000/api/v1/topic/${id}`)).json();
 }
 
+async function fetchTopic3(id) {
+  return (await fetch(`http://127.0.0.1:8000/api/v1/topic/${id}`)).json();
+}
+
 const App = () => {
   const [topicId, setTopicId] = createSignal(1);
   const deacrement = () => setTopicId(topicId() - 1);
