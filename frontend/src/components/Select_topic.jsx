@@ -1,6 +1,6 @@
 import { createSignal, createResource, For } from 'solid-js';
 
-function App2() {
+function Select_topic() {
   const [id, setId] = createSignal(10);
   const [topic] = createResource(id, async (id) => {
     return fetch(`http://127.0.0.1:8000/api/v1/topic/${id}`).then(res => res.json())
@@ -38,4 +38,4 @@ function App2() {
 }
 
 
-export default App2; 
+export default Select_topic; 
