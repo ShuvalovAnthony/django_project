@@ -1,6 +1,6 @@
 import { createSignal, createResource, createEffect, For } from "solid-js";
 
-async function fetchTopic(id) {
+async function fetchTopic(id: number) {
   return (await fetch(`http://127.0.0.1:8000/api/v1/topic/${id}`)).json();
 }
 
@@ -29,7 +29,7 @@ const App = () => {
           </div>
           <div class="col">
             <button type="button" class="btn btn-primary" onClick={show_title}>
-              Next
+              Alert
             </button>
           </div>
         </div>
