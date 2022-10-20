@@ -16,6 +16,9 @@
   },
   "dependencies": {
     "solid-bootstrap": "^1.0.8",
-    "solid-js": "^1.5.1"
+    "solid-form-handler": "^1.0.0-alpha.2",
+    "solid-js": "^1.5.1",
+    "solid-js-form": "^0.1.5",
+    "yup": "^0.32.11"
   }
 }

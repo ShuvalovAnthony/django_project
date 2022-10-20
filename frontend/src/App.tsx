@@ -13,7 +13,6 @@ const App = () => {
 
 
   return (
-
     <div class="container-fluid">
       <div class="container">
         <div class="row">
@@ -49,16 +48,10 @@ const App = () => {
         </div>
         <div class="row">
           Topic number {topicId}
-
         </div>
       </div>
       <p></p>
-
-
-
-
     </div>
-
   );
 };
 
