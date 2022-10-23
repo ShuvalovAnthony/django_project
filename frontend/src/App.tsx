@@ -41,7 +41,6 @@ const App = () => {
                 <h1>{topic().title}</h1>
                 <p>{topic().category}</p>
                 <p>{topic().content}</p>
-                <p>{topic().time_create}</p>
               </section>
             )}
           </div>
